@@ -1,0 +1,113 @@
+*{
+margin: 0;
+padding: 0;
+line-height: 1.1em;
+
+}
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
+}
+
+header, footer{
+	background-color: #BF1363;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+header img {
+    width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: black;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+
+
+/*Here is the code to the nav bar*/
+
+nav {
+	margin: 0 auto;
+	max-width: 900px;
+	background-color: #E07BE0;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #420039;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+
+.responsive li {
+	display: block;
+}
+
+main{
+	margin: 0 auto;
+	
+	align-items: center;
+	justify-content: center;
+	max-width: 900px;
+
+}
+
+.container{
+	display: block;
+	margin: 10px;
+	border: 1px dashed green;
+	padding: 18px;
+	background-color: #DCCCFF;
+	color: black;
+	
+}
+.Ecuador{
+	display: block;
+	padding: 18px;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+footer div{
+text-align: center;
+padding: 10px;
+}
+
