@@ -67,7 +67,7 @@ background-color: thistle;
 padding: 8px;
 
 }
-h2{
+h2, h3{
 	text-align: center;
 	font-size: large;
 }
@@ -90,10 +90,26 @@ main img{
 	padding: .5rem;
 
 }
+.forecast{
+	display: none;
+}
+.allboxes{
+	text-align: center;
+	
+}
 
+.box {
+	
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: rgb(175, 120, 211);
+	color: white;
+}
 
 footer div{
 text-align: center;
 padding: 10px;
 }
+
 
