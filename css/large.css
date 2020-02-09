@@ -68,10 +68,17 @@ padding: 8px;
 
 }
 h2, h3{
-	padding: 50px;
+	padding: 25px;
 	text-align: center;
 	font-size: large;
 	
+}
+h4{
+	text-align: center;
+}
+
+h5{
+	text-align: center;
 }
 main img{
 	width: 100%;
