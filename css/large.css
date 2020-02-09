@@ -90,7 +90,7 @@ main img{
 	left: 50px;
 	background:radial-gradient(brown, lightblue);
 	padding: .5rem;
-	box-shadow: rgb(175, 120, 211);
+	
 
 }
 .forecast{
@@ -124,7 +124,7 @@ main img{
 }
 
 .article{
-box-shadow: blueviolet;
+
 	display: grid;
 	grid-template-columns: 1fr;
 	padding: 8px;
@@ -141,14 +141,14 @@ section img{
 
 }
 .paragraph{
-	display: inline block;
+	display: inline-block;
 	margin: 0;
 	padding: 5px;
 
 }
 
 .contact{
-	box-shadow: blueviolet;
+	
 	display: grid;
 	grid-template-columns: 1fr;
 	padding: 8px;
