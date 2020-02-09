@@ -86,7 +86,7 @@ main img{
 	top: 50px;
 	left: 50px;
 	box-shadow: grey;
-	background:radial-gradient(green, lightgreen);
+	background:radial-gradient(#BF1363, lightyellow);
 	padding: .5rem;
 
 }
@@ -105,6 +105,58 @@ main img{
 	height: 100px;
 	background: rgb(175, 120, 211);
 	color: white;
+}
+
+.label {
+	display: block;
+	padding: 5px;
+}
+.icon{
+	display: block;
+	padding: 5px;
+}
+.detail{
+	display: block;
+	padding: 5px;
+}
+
+.article{
+box-shadow: blueviolet;
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 8px;
+	width: 100%;
+	
+	
+
+}
+section img{
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 5px;
+
+}
+.paragraph{
+	display: inline block;
+	margin: 0;
+	padding: 5px;
+
+}
+
+.contact{
+	box-shadow: blueviolet;
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 8px;
+	width: 100%;
+	
+}
+.map{
+	width: 100%;
+}
+.info{
+	text-align: center;
 }
 
 footer div{
