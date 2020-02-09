@@ -50,7 +50,7 @@ header img {
 }
 
 .headings h1 {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	margin: 0 0 0 17px;
 }
 
@@ -63,7 +63,7 @@ header img {
 }
 
 main{
-background-color: thistle;
+background-color: #DCCCFF;
 padding: 8px;
 
 }
@@ -85,9 +85,9 @@ main img{
 	position: absolute;
 	top: 50px;
 	left: 50px;
-	box-shadow: grey;
-	background:radial-gradient(#BF1363, lightyellow);
+	background:radial-gradient(brown, lightblue);
 	padding: .5rem;
+	box-shadow: rgb(175, 120, 211);
 
 }
 .forecast{

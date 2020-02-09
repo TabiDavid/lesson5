@@ -26,5 +26,11 @@ grid-template-columns: 1fr 1fr;
 }
 .contact{
 	grid-template-columns: 1fr 1fr;
+
+}
+
+.headings h1 {
+	font-size: 3.5rem;
+	
 }
 }
